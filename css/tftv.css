@@ -1,0 +1,112 @@
+body, html {
+    background-color: #2e3440;
+}
+
+#content {
+    background-color: #232529;
+    border-color: #232529;
+}
+
+#main-feature-caption {
+    background-color: #34363d;
+    border-color: #34363d;   
+}
+
+#main-feature-caption span {
+    color: #eceff4;
+}
+
+#main-feature-desc {
+    color: #d8dee9;
+}
+
+#article-list {
+    background-color: #34363d;
+    border-color: #34363d;
+}
+
+.list-table td {
+    color: #d8dee9;
+    border-color: #d8dee9;
+    background-color: #34363d;
+}
+
+#schedule-table td:first-child,
+.list-table tr:nth-child(2) td,
+.list-table tr:nth-child(3) td,
+.list-table tr:nth-child(4) td,
+.list-table tr:nth-child(5) td,
+.list-table tr:last-child td  {
+    border-left: 0;
+    border-right: 0;
+    color: #d8dee9;
+}
+
+#schedule-table td:nth-child(2) {
+    color: #d8dee9;
+}
+
+.list-table th:first-child,
+.list-table th:nth-child(2),
+.list-table th:nth-child(3),
+.list-table th:last-child {
+    background: -webkit-linear-gradient(top, #2e3440 0%, #2e506b 100%);
+}
+
+.list-table tr:last-child td {
+    border-bottom: 0;
+}
+
+.list-table a {
+    color: #5e81ac;
+}
+
+tbody {
+    border: 0;
+}
+
+.header {
+    background-color: #232529;
+}
+
+.header-nav-container {
+    background-color: #34363d;
+}
+
+.module {
+    background-color: #34363d;
+    border-color: #232529;
+}
+
+.module span {
+    color: #eceff4;
+}
+
+.module-header {
+    background-color: #232529;
+}
+
+/* generic hover over tiles */
+.module-item:hover, .module-header:hover, .module-item.mod-featured:hover {
+    background-color: #4c566a;
+}
+
+.news-item-title {
+    color: #d8dee9;
+}
+
+/* featured (tf2) streams in streambar */
+.module-item.mod-featured {
+    background-color: #34363d;    
+}
+
+.module-item.mod-featured span {
+    color: #88c0d0;
+}
+
+.module-filter-menu {
+    background-color: #34363d;
+}
+
+/* livesteam submenu -> tf.tv tf2 csgo dota2 */
+.module-filter-menu span {}

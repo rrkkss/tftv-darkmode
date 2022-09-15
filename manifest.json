@@ -1,0 +1,28 @@
+{
+    "manifest_version": 2,
+    "name": "tftv-darkmode",
+    "version": "1.0",
+    "description": "Sets a darkmode for tftv.gg",
+  
+    "icons":
+    {
+        "16": "icons/icon16.png",
+        "32": "icons/icon32.png",
+        "64": "icons/icon64.png"
+    },
+
+    "browser_action":
+    {
+        "default_popup": "popup.html",
+        "browser_style": true
+    },
+  
+    "content_scripts":
+    [
+        {
+            "matches": ["*://*.teamfortress.tv/*"],
+            "css": ["css/tftv.css"]
+        }
+    ]  
+}
+  
