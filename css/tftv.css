@@ -1,5 +1,11 @@
 body, html {
     background-color: #2e3440;
+    color: #d8dee9;
+}
+
+#wrapper {
+    padding-bottom: 2rem;
+    padding-top: 2rem;
 }
 
 #content {
@@ -32,11 +38,8 @@ body, html {
 }
 
 #schedule-table td:first-child,
-.list-table tr:nth-child(2) td,
-.list-table tr:nth-child(3) td,
-.list-table tr:nth-child(4) td,
-.list-table tr:nth-child(5) td,
-.list-table tr:last-child td  {
+.list-table tr:nth-child(n+1) td
+  {
     border-left: 0;
     border-right: 0;
     color: #d8dee9;
@@ -47,8 +50,7 @@ body, html {
 }
 
 .list-table th:first-child,
-.list-table th:nth-child(2),
-.list-table th:nth-child(3),
+.list-table th:nth-child(n+1),
 .list-table th:last-child {
     background: -webkit-linear-gradient(top, #2e3440 0%, #2e506b 100%);
 }
@@ -108,5 +110,255 @@ tbody {
     background-color: #34363d;
 }
 
-/* livesteam submenu -> tf.tv tf2 csgo dota2 */
+/* livestream submenu -> tf.tv tf2 csgo dota2 */
 .module-filter-menu span {}
+
+
+/* main thread */
+#thread-container {
+    border: 0;
+}
+
+.post {
+    background-color: #34363d;
+    
+    border: 0;
+}
+
+.post p {
+    color: #d8dee9;
+}
+
+.post a {
+    color: #5e81ac;
+}
+
+.post-header {
+    background-color: #232529;
+}
+
+.post-author {
+    color: #88c0d0;
+}
+
+.post-body {
+    border: 0;
+}
+
+.thread-header-title {
+    color:#eceff4;
+}
+
+.thread-header-desc {
+    color: #d8dee9;
+}
+
+/* thread upfrag buttons */
+
+.thread-frag-btn {
+    background-color: #4c566a;
+    color: #d8dee9;
+    border: 0;
+}
+
+.thread-frag-btn.plus #thread-frag-count {
+    background-color: #34363d;
+}
+
+.btn:not(.mod-active):hover {
+    background-color: #5e81ac;
+}
+
+#post-form-block a {
+    color: #5e81ac;
+}
+
+/* quotes */
+q {}
+
+.post-body q {
+    background-color: #34363d;
+    color: #d8dee9;
+}
+
+/* privacy page */
+#content, #content p, #content li, #content text {
+    color: #d8dee9;
+}
+
+#content a {
+    color: #5e81ac;
+}
+
+/* page buttons */
+.btn .mod-page {
+    background-color: #4c566a;
+    color: #d8dee9;
+}
+
+.action-container-pages .mod-page {
+    background-color: #4c566a;
+    color: #d8dee9;
+}
+
+.action-container-pages .mod-active {
+    background-color: #5e81ac;
+}
+
+.btn, a.btn {
+    border: 0;
+    border-radius: 0;
+    background-color: #4c566a;
+    color: #d8dee9;
+}
+
+a.btn.mod-active {
+    background-color: #5e81ac;
+}
+
+.btn.mod-active {
+    box-shadow: 0 0 0 0; /* fucker still shows with just a single 0, this cancels it out */
+    border: 0;
+    background-color: #5e81ac;
+}
+
+.btn.mod-action {
+    background-color: #4c566a;
+}
+
+.btn.first, .btn.last {
+    background-color: #4c566a;
+    color: #d8dee9;
+}
+
+#content .action-container .btn-group a {
+    color: #d8dee9;
+}
+
+.fa {
+    color: #4c566a;
+}
+
+/* ads */
+.bau, .sau, #aw {
+    display: none;
+}
+
+/* inputs */
+#search-bar, #form-q {
+    background-color: #34363d;
+    color: #d8dee9;
+}
+
+/* buttons under search query results */
+input[type="radio"]:checked + label {
+    background-color: #4c566a;
+    color: #d8dee9;
+}
+
+input[type="radio"] + label {
+    background-color: #34363d;
+    color: #d8dee9;
+}
+
+/* gallery */
+.gallery-info {
+    background-color: #34363d;
+    color: #d8dee9;
+}
+
+.gallery-name {
+    color: #eceff4;
+}
+
+
+/* user profile */
+#profile-header {
+    color: #eceff4;
+}
+
+.post-body p {
+    color: #d8dee9;
+}
+
+/* /forums */
+.subforum {
+    color: #d8dee9;
+}
+
+.forum-group-header {
+    color: #eceff4;
+}
+
+.forum-header span {
+    color: #d8dee9;
+}
+
+.filter-container a {
+    color: #d8dee9;
+}
+
+/* icons */
+.fa-home, .fa-user, .fa-envelope, .fa-bars {
+    color: #d8dee9;
+}
+
+/* inbox */
+#inbox-list td {
+    color: #d8dee9;
+}
+
+#inbox-message {
+    background-color: #34363d;
+    border: 0;
+}
+
+#inbox-message td {
+    background-color: #2e3440;
+}
+
+#inbox-message td:nth-child(3) {
+    color: #d8dee9;
+}
+
+.post-body {
+    margin-top: 0;
+}
+
+/* #content a {
+    color: #d8dee9;
+} */
+
+/* event info */
+#event-container {
+    background-color: #34363d;
+    color: #d8dee9;
+    border: 0;
+}
+
+/* post-editor */
+#post-editor {
+    background-color: #34363d;
+    color: #d8dee9;
+    border: 0;
+}
+
+#post-editor-header, .post-editor-header-action {
+    color: #d8dee9;
+    background-color: #34363d;
+}
+
+form {
+    
+}
+
+input[type="text"], input[type="search"], select, textarea {
+    background-color: #34363d;
+    color: #d8dee9;
+}
+
+/*
+TODO:
+change colours of javascript based buttons (dropdowns and such)
+check styling of /stream -> twitch chat panel
+*/
