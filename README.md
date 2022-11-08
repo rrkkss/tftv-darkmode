@@ -1,2 +1,2 @@
 #### teamfortress.tv dark theme as a browser plugin
-currently only for firefox
+based on manifest v2
