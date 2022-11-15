@@ -169,6 +169,31 @@ tbody {
     background-color: #5e81ac;
 }
 
+.btn .mod-filter .is-clicked {
+    background-color: #2e3440;
+}
+
+.btn.is-clicked {
+    background: #5e81ac !important;
+}
+
+.filter-option.active, .filter-option:hover {
+    background-color:#5e81ac;
+}
+
+.filter-option {
+    background-color: #4c566a;
+}
+
+.filter-menu {
+    border: 0;
+    box-shadow: 0;
+    padding: 0;
+    top: 40px;
+    left: -98px;
+}
+
+
 #post-form-block a {
     color: #5e81ac;
 }
@@ -357,8 +382,53 @@ input[type="text"], input[type="search"], select, textarea {
     color: #d8dee9;
 }
 
-/*
-TODO:
-change colours of javascript based buttons (dropdowns and such)
-check styling of /stream -> twitch chat panel
-*/
+/* TWITCH */
+.stream-side-list {
+    background-color: #2e3440;
+}
+
+.stream-side-list a {
+    color: #d8dee9;
+    background-color: #34363d;
+    border-color: #d8dee9 !important;
+    border-bottom: 1px solid #ccc !important;
+    padding-bottom: 5px;
+}
+
+.stream-side-list-item.mod-selected {
+    color: #d8dee9;
+    background: #4c566a;
+    margin-top: 0;
+}
+
+.stream-title {
+    color: #88c0d0;
+} 
+
+.stream-desc-subtitle {
+    color: #d8dee9;
+}
+
+.stream-desc-count {
+    color: #88c0d0;
+}
+
+.stream-chat {
+    background-color: #34363d !important;
+    color: #eceff4 !important;
+}
+
+.Layout-sc-nxg1ff-0, .iFaqlo, .stream-chat-header {
+    background-color: #34363d !important;
+    color: #eceff4 !important;
+}
+
+.stream-chat-header {
+    background-color: #34363d !important;
+    color: #eceff4 !important;
+}
+
+.simplebar-content {
+    background-color: #34363d !important;
+    color: #eceff4 !important;
+}
