@@ -110,10 +110,6 @@ tbody {
     background-color: #34363d;
 }
 
-/* livestream submenu -> tf.tv tf2 csgo dota2 */
-.module-filter-menu span {}
-
-
 /* main thread */
 #thread-container {
     border: 0;
@@ -145,6 +141,10 @@ tbody {
     border: 0;
 }
 
+.blockr.pages .post-count {
+    color: #888888;
+}
+
 .thread-header-title {
     color:#eceff4;
 }
@@ -154,7 +154,6 @@ tbody {
 }
 
 /* thread upfrag buttons */
-
 .thread-frag-btn {
     background-color: #4c566a;
     color: #d8dee9;
@@ -197,9 +196,6 @@ tbody {
 #post-form-block a {
     color: #5e81ac;
 }
-
-/* quotes */
-q {}
 
 .post-body q {
     background-color: #34363d;
@@ -371,10 +367,6 @@ input[type="radio"] + label {
 #post-editor-header, .post-editor-header-action {
     color: #d8dee9;
     background-color: #34363d;
-}
-
-form {
-    
 }
 
 input[type="text"], input[type="search"], select, textarea {
